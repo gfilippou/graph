@@ -4,7 +4,7 @@ Aggregate EOA positions graph app, created by George Filippou for the SimpleFi t
 
 # Live Demo
 
-View a live demo of this app at https://graph.vercel.app/ \
+View a live demo of this app at https://graph-gfilippou.vercel.app/ \
 You are encouraged to use the Console. It logs information that makes it easy to follow how the app handles all events.
 
 # Points To Note
