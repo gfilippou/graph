@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 5.5rem;
+  background-color: #d03c98;
+}
+
+.header > div {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 50%;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: 300;
+  justify-content: flex-end;
+  margin-right: 2em;
+  margin-bottom: 0.5rem;
+}
+
+.logo {
+  display: flex;
+  height: 2.8rem;
+  margin-left: 2em;
+  filter: brightness(0) invert(1);
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 1.2rem;
+    margin: 0rem;
+  }
+  .header {
+    flex-direction: column;
+    height: 8rem;
+    margin: 0;
+  }
+  .logo {
+    margin: 0;
+    align-items: center;
+  }
+
+  .logo > img {
+    height: 3rem;
+    margin-top: 1.5rem;
+  }
+}
